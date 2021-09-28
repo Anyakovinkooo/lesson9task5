@@ -2,11 +2,15 @@
     background-color: darkturquoise;
     height: 40px;
 }
+.nav-list {
+    line-height: 40px;
+}
 .nav-item {
+    height: 40px;
     display: inline;
     color: white;
     padding: 16px;
-    height: 40px;
+ 
 }
 .content {
 background-color: beige;
@@ -16,4 +20,32 @@ height: 5000px;
     height: 200px;
     width: 200px;
     background-color: aquamarine;
+}
+.ear_right{
+    height: 60px;
+    width: 40px;
+    background-color: brown;
+}
+.ear_left{
+    height: 60px;
+    width: 40px;
+    background-color: brown;
+}
+.eye_right {
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.eye_left {
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
