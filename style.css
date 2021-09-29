@@ -21,8 +21,8 @@ height: 5000px;
     height: 200px;
     width: 200px;
     background-color: aquamarine;
-    position: relative;
-    top: 162px;
+    position: fixed;
+    top: 250px;
     left: 600px;
 
 }
@@ -50,9 +50,9 @@ height: 5000px;
     margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
-    position: relative;
-    top: -120px;
-    left: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 .eye_left {
     border-radius: 30px;
@@ -62,7 +62,7 @@ height: 5000px;
     margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
-    position: relative;
-    top: -230px;
-    left: 88px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
