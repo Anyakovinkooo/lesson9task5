@@ -3,13 +3,14 @@
     height: 40px;
 }
 .nav-list {
+    margin: 0;
     line-height: 40px;
+    list-style: none;
 }
 .nav-item {
-    height: 40px;
-    display: inline;
-    color: white;
-    padding: 16px;
+  float: left;
+  margin-left: 40px;
+  color: white;
  
 }
 .content {
@@ -20,16 +21,26 @@ height: 5000px;
     height: 200px;
     width: 200px;
     background-color: aquamarine;
+    position: relative;
+    top: 162px;
+    left: 600px;
+
 }
 .ear_right{
     height: 60px;
     width: 40px;
     background-color: brown;
+    position: relative;
+    top: -60px;
+    left: -40px;
 }
 .ear_left{
     height: 60px;
     width: 40px;
     background-color: brown;
+    position: relative;
+    top: -120px;
+    left: 200px;
 }
 .eye_right {
     border-radius: 30px;
@@ -39,6 +50,9 @@ height: 5000px;
     margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
+    position: relative;
+    top: -120px;
+    left: 0px;
 }
 .eye_left {
     border-radius: 30px;
@@ -48,4 +62,7 @@ height: 5000px;
     margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
+    position: relative;
+    top: -230px;
+    left: 88px;
 }
