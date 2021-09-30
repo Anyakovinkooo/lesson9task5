@@ -6,13 +6,13 @@
     margin: 0;
     line-height: 40px;
     list-style: none;
+    padding-left: 16px;
 }
 .nav-item {
-    float: left;
-    color: white;
-    padding-left: 16px;
-    left: 40px;
-  }
+  float: left;
+  margin-left: 40px;
+  color: white;
+}
 .content {
 background-color: beige;
 height: 5000px;
