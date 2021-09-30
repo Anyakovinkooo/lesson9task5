@@ -18,31 +18,31 @@ background-color: beige;
 height: 5000px;
 }
 .head {
+    position: absolute;
     height: 200px;
     width: 200px;
     background-color: aquamarine;
-    position: relative;
-    top: 250px;
-    left: 600px;
-
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
 }
 .ear_right{
+    position: absolute;
     height: 60px;
     width: 40px;
     background-color: brown;
-    position: relative;
+    top: -60px;
+    left: 200px;
+}
+.ear_left{
+    position: absolute;
+    height: 60px;
+    width: 40px;
+    background-color: brown;
     top: -60px;
     left: -40px;
 }
-.ear_left{
-    height: 60px;
-    width: 40px;
-    background-color: brown;
-    position: relative;
-    top: -120px;
-    left: 200px;
-}
 .eye_right {
+    position: absolute;
     border-radius: 30px;
     height: 30px;
     width: 30px;
@@ -50,11 +50,10 @@ height: 5000px;
     margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    right: 5px;
 }
 .eye_left {
+    position: absolute;
     border-radius: 30px;
     height: 30px;
     width: 30px;
@@ -62,7 +61,5 @@ height: 5000px;
     margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+
 }
