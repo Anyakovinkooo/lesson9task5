@@ -3,6 +3,7 @@
   background-color: darkturquoise;
   height: 40px;
   width: 100%;
+  z-index: 2;
 }
 
 .nav-list {
@@ -14,7 +15,7 @@
 .nav-item {
   float: left;
   color: white;
-  padding-left: 16px;
+  margin-left: 16px;
   left: 40px;
 }
 
