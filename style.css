@@ -1,65 +1,71 @@
 .header {
-    background-color: darkturquoise;
-    height: 40px;
+  background-color: darkturquoise;
+  height: 40px;
 }
+
 .nav-list {
-    margin: 0;
-    line-height: 40px;
-    list-style: none;
-    padding-left: 16px;
+  margin: 0;
+  line-height: 40px;
+  list-style: none;
 }
+
 .nav-item {
   float: left;
   margin-left: 40px;
   color: white;
 }
-.content {
-background-color: beige;
-height: 5000px;
-}
-.head {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    background-color: aquamarine;
-    top: calc(50% - 100px);
-    left: calc(50% - 100px);
-}
-.ear_right{
-    position: absolute;
-    height: 60px;
-    width: 40px;
-    background-color: brown;
-    top: -60px;
-    left: 200px;
-}
-.ear_left{
-    position: absolute;
-    height: 60px;
-    width: 40px;
-    background-color: brown;
-    top: -60px;
-    left: -40px;
-}
-.eye_right {
-    position: absolute;
-    border-radius: 30px;
-    height: 30px;
-    width: 30px;
-    background-color: gray;
-    margin-top: 80px;
-    margin-left: 40px;
-    margin-right: 40px;
-    right: 0px;
-}
-.eye_left {
-    position: absolute;
-    border-radius: 30px;
-    height: 30px;
-    width: 30px;
-    background-color: gray;
-    margin-top: 80px;
-    margin-left: 40px;
-    margin-right: 40px;
 
+.content {
+  background-color: beige;
+  height: 5000px;
+}
+
+.head {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+}
+
+.ear_right {
+  position: absolute;
+  height: 60px;
+  width: 40px;
+  background-color: brown;
+  top: -60px;
+  left: 200px;
+}
+
+.ear_left {
+  position: absolute;
+  height: 60px;
+  width: 40px;
+  background-color: brown;
+  top: -60px;
+  left: -40px;
+}
+
+.eye_right {
+  position: absolute;
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  background-color: gray;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  right: 0px;
+}
+
+.eye_left {
+  position: absolute;
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  background-color: gray;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
